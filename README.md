@@ -2,7 +2,8 @@
 Its is an Application just for practicing my skills over web application and android application with integration of these.
 
 # Screenshots
-![Screenshot_2021-10-18-07-16-33-149_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659300-3f0d0c98-ae26-4f5c-aec3-a9f276784a04.jpg?v=4&s=50)
+<img src="https://user-images.githubusercontent.com/29273383/137659300-3f0d0c98-ae26-4f5c-aec3-a9f276784a04.jpg" width="400" height="790">
+
 ![Screenshot_2021-10-18-07-16-34-697_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659320-4c0c2020-aa02-45c6-abea-badde3244307.jpg)
 ![Screenshot_2021-10-18-07-16-36-257_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659331-b9ab521a-aaa7-4be0-be21-08d7c53fc845.jpg)
 ![Screenshot_2021-10-18-07-16-37-878_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659348-4b440881-162c-41b3-982a-055f08456ca1.jpg)
