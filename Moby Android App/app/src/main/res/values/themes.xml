@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme" parent="Base.Theme"></style>
+
+    <style name="Base.Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent</item>
+        <!--for text selection toolbar to be above usual toolbar -->
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="ThemeDark" parent="Base.ThemeDark"></style>
+
+
+    <style name="Base.ThemeDark" parent="Theme.AppCompat.NoActionBar">
+        <!--for text selection toolbar to be above usual toolbar -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimaryDark">@color/ColorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.PD" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <!--<item name="android:windowTranslucentStatus" tools:targetApi="19">true</item>-->
+
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- Material Theme -->
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <!--
+                <item name="android:statusBarColor" tools:targetApi="21">@color/statusBarColor</item>
+                <item name="android:navigationBarColor" tools:targetApi="21">@color/navigationBarColor</item>
+                <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="21">true</item>-->
+
+
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme.PD.MAIN" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:textColorPrimary">@color/text_secondary</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <!--<item name="android:windowTranslucentStatus" tools:targetApi="19">true</item>-->
+
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Material Theme -->
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:theme">@style/CheckBoxAppTheme</item>
+        <!--
+                <item name="android:statusBarColor" tools:targetApi="21">@color/statusBarColor</item>
+                <item name="android:navigationBarColor" tools:targetApi="21">@color/navigationBarColor</item>
+                <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="21">true</item>-->
+
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.PD.FILTER" parent="AppBaseTheme">
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <!--<item name="android:windowTranslucentStatus" tools:targetApi="19">true</item>-->
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Material Theme -->
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:theme">@style/CheckBoxAppTheme</item>
+        <!--
+                <item name="android:statusBarColor" tools:targetApi="21">@color/statusBarColor</item>
+                <item name="android:navigationBarColor" tools:targetApi="21">@color/navigationBarColor</item>
+                <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="21">true</item>-->
+
+
+    </style>
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/white</item>
+    </style>
+    <style name="Widget.MyApp.HeaderBar.Spinner" parent="Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="background">?android:selectableItemBackground</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:dropDownSelector">?android:selectableItemBackground</item>
+        <item name="android:divider">@null</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="CustomCheckBox">
+        <item name="android:theme">@style/CheckBoxAppTheme</item>
+    </style>
+
+    <style name="CheckBoxAppTheme">
+        <item name="colorAccent">@color/accent
+        </item>
+        <item name="colorControlNormal">@color/primary
+        </item>
+        <item name="colorControlHighlight">@color/accent
+        </item>
+    </style>
+
+
+    <style name="MyMaterialThemeWithTransSB" parent="MyMaterialTheme.Base">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppBaseThemeM" parent="@style/Theme.AppCompat.Light">
+    </style>
+
+    <style name="AppThemeM" parent="AppBaseThemeM">
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="21">true</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Toolbar Theme / Apply white arrow -->
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="actionBarTheme">@style/AppTheme.ActionBarTheme</item>
+
+        <!-- Material Theme -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/accent_color</item>
+
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/navigationBarColor</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="21">true</item>
+
+    </style>
+
+    <style name="AppTheme.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- White arrow -->
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+    <style name="TransparentToolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="CustomDigitsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/darker_gray</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorLink">#ff398622</item>
+    </style>
+
+</resources>

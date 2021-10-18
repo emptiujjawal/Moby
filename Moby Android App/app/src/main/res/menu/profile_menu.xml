@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_action_edit"
+        android:icon="@drawable/ic_mode_edit_white_24dp"
+        android:orderInCategory="99"
+        app:showAsAction="always"
+        android:title="@string/action_edit_profile" />
+    <item
+        android:id="@+id/menu_action_logout"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/action_logout" />
+</menu>

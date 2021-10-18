@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.txusballesteros.bubbles.BubbleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_company_logo"
+                android:padding="15dp"
+                android:background="@drawable/shape_circle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_ad_earn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/shape_circle_primary"
+            android:layout_gravity="right|top"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/iv_app_logo"
+            android:padding="5dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_circle_primary"
+            android:layout_gravity="right|bottom"
+            android:scaleType="centerCrop"
+            android:tint="@color/white"
+            android:src="@drawable/babywhale" />
+        <TextView
+            android:id="@+id/tv_bad_logo"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/babywhale"
+            android:background="@drawable/shape_circle_primary"
+            android:layout_gravity="right|bottom"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textSize="25sp" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="gone"
+            android:layout_gravity="right|bottom"
+            android:src="@drawable/volks" />
+    </FrameLayout>
+</com.txusballesteros.bubbles.BubbleLayout>

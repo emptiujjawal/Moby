@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Moby</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_sign_in_with_fb">Connect With Facebook</string>
+    <string name="action_sign_in_with_google">Connect With Google</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="title_activity_cyp">Complete Your Profile</string>
+    <string name="action_check_in">Check In</string>
+    <string name="dummy_question">What\'s the screen size of LG Nexus 5X?</string>
+    <string name="dummy_option1">5.0 inch</string>
+    <string name="dummy_option2">4.5 inch</string>
+    <string name="dummy_option3">5.5 inch</string>
+    <string name="dummy_option4">6.0 inch</string>
+    <string name="take_the_quiz">Take The Quiz</string>
+    <string name="action_previous">Prev</string>
+    <string name="action_next">Next</string>
+    <string name="action_complete">Complete</string>
+    <string name="action_know_more">Know More</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_timeline">Timeline</string>
+    <string name="action_switch_view">Switch View</string>
+    <string name="action_dashboard">Dashboard</string>
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="action_engage">Engage</string>
+    <string name="dummy_coupon">MOBY20OFF</string>
+    <string name="action_buy">Buy Now</string>
+    <string name="empty" />
+    <string name="action_logout">Logout</string>
+    <string name="action_edit_save">Save</string>
+
+
+    <array name="salary_option">
+        <item>1-5 Lacs per annum</item>
+        <item>5-10 Lacs per annum</item>
+        <item>10-20 Lacs per annum</item>
+        <item>20-30 Lacs per annum</item>
+        <item>30+ Lacs per annum</item>
+    </array>
+
+    <string name="facebook_app_id">1975642669388803</string>
+    <string name="fb_login_protocol_scheme">fb1975642669388803</string>
+    <string name="action_sign_up_redirect">New User? Register Here</string>
+    <string name="action_sign_up">Register</string>
+    <string name="action_sign_in_redirect">Already Have An Account? Sign In Here</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">\ No\ </string>
+    <string-array name="india_states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+</resources>

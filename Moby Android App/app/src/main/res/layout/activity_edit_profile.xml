@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.snq.nearbucks.activity.EditProfileActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </android.support.v7.widget.Toolbar>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:id="@+id/iv_edit_photo"
+            android:layout_width="100dp"
+            android:visibility="gone"
+            android:layout_height="100dp"
+            local:srcCompat="@drawable/buser" />
+        <TextView
+            android:layout_marginTop="@dimen/activity_half_margin"
+            android:id="@+id/tv_edit_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:layout_marginTop="@dimen/activity_half_margin"
+            android:id="@+id/et_edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/primary_text"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:hint="Name" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+        <TextView
+            android:id="@+id/tv_edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textColor="@color/primary_text"
+            android:hint="Email" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+
+        <TextView
+            android:id="@+id/tv_edit_profession"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:hint="Profession" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+        <TextView
+            android:id="@+id/tv_edit_salary"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:hint="Salary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+        <TextView
+            android:id="@+id/tv_edit_clubMembership"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:hint="Club Membership" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+        <TextView
+            android:id="@+id/tv_edit_defenceService"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:hint="Defence Service" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+        <TextView
+            android:id="@+id/tv_edit_watchBrand"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:hint="Watch Brand" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+        <TextView
+            android:id="@+id/tv_edit_carBrand"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:hint="Car Brand" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+        <TextView
+            android:id="@+id/tv_edit_milesCard"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:hint="Miles Card" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+        <TextView
+            android:id="@+id/tv_edit_creditCard"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:hint="Credit Card" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+        <TextView
+            android:id="@+id/tv_edit_transportType"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:hint="Transport Type" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+        <TextView
+            android:id="@+id/tv_edit_residenceType"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:hint="Residence Type" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+
+        <EditText
+            android:id="@+id/et_edit_address"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/primary_text"
+            android:hint="Address" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+
+        <EditText
+            android:id="@+id/et_edit_city"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/primary_text"
+            android:hint="City" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+        <EditText
+            android:id="@+id/et_edit_state"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/primary_text"
+            android:hint="State" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/primary"/>
+        <EditText
+            android:id="@+id/et_edit_pincode"
+            android:background="@color/white"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/primary_text"
+            android:hint="Pincode" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/activity_half_margin"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/b_edit_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/gray5"
+                android:text="Facebook" />
+            <View
+                android:layout_width="0.8dp"
+                android:background="@color/white"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/b_edit_twitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/gray5"
+                android:text="Twitter" />
+
+            <View
+                android:layout_width="0.8dp"
+                android:background="@color/white"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/b_edit_gplus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/gray5"
+                android:text="Google" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

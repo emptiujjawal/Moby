@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/maps_menu_switch_view"
+        android:icon="@drawable/ic_map_white_24dp"
+        android:orderInCategory="99"
+        app:showAsAction="always"
+        android:title="@string/action_switch_view" />
+    <item
+        android:id="@+id/maps_menu_timeline"
+        android:icon="@drawable/ic_timeline_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/action_timeline" />
+
+    <item
+        android:id="@+id/maps_menu_dashboard"
+        android:icon="@drawable/ic_dashboard_white_24dp"
+        android:orderInCategory="150"
+        app:showAsAction="always"
+        android:title="@string/action_dashboard" />
+    <item
+        android:id="@+id/maps_menu_notification"
+        android:icon="@drawable/ic_notifications_white_24dp"
+        android:orderInCategory="200"
+        android:visible="false"
+        app:showAsAction="always"
+        android:title="@string/action_notifications" />
+
+    <item
+        android:id="@+id/maps_menu_profile"
+        android:icon="@drawable/ic_person_white_24dp"
+        android:orderInCategory="300"
+        app:showAsAction="always"
+        android:visible="false"
+        android:title="@string/action_profile" />
+</menu>
