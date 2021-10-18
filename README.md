@@ -2,13 +2,15 @@
 Its is an Application just for practicing my skills over web application and android application with integration of these.
 
 # Screenshots
-# Web Application
-![Screenshot (149)](https://user-images.githubusercontent.com/29273383/137658523-81c0bcef-af99-4077-abbb-1850c657cc68.png)
-![Screenshot (150)](https://user-images.githubusercontent.com/29273383/137658563-a843510e-ac17-416d-b7b5-4734d4979b38.png)
-![Screenshot (151)](https://user-images.githubusercontent.com/29273383/137658615-89338d45-86f7-4683-b416-34470aaf0e4f.png)
-![Screenshot (152)](https://user-images.githubusercontent.com/29273383/137658662-e78eed6b-b173-4761-a2e1-bb563b1be47c.png)
-![Screenshot (154)](https://user-images.githubusercontent.com/29273383/137658709-fed17d4c-7197-4415-ad9b-efda579c9145.png)
-![Screenshot (153)](https://user-images.githubusercontent.com/29273383/137658718-9ec23f06-0089-4857-b64b-bf530687ed85.png)
-# Android Application
+![Screenshot_2021-10-18-07-16-33-149_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659300-3f0d0c98-ae26-4f5c-aec3-a9f276784a04.jpg)
+![Screenshot_2021-10-18-07-16-34-697_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659320-4c0c2020-aa02-45c6-abea-badde3244307.jpg)
+![Screenshot_2021-10-18-07-16-36-257_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659331-b9ab521a-aaa7-4be0-be21-08d7c53fc845.jpg)
+![Screenshot_2021-10-18-07-16-37-878_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659348-4b440881-162c-41b3-982a-055f08456ca1.jpg)
+![Screenshot_2021-10-18-07-17-07-940_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659371-3c3bf095-a6fd-446b-b5b2-98d54981bf02.jpg)
+![Screenshot_2021-10-18-07-16-28-543_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659394-1f762f25-8b27-48d5-85a8-2823f54bc99c.jpg)
+![Screenshot_2021-10-18-07-16-04-984_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659408-1fe4c3a0-5b8f-4c4a-aa09-212fd75ace5b.jpg)
+![Screenshot_2021-10-18-07-15-58-458_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659422-fd261fab-a914-4fec-b7fa-c95e8442b689.jpg)
+![Screenshot_2021-10-18-07-16-19-124_com snq nearbucks](https://user-images.githubusercontent.com/29273383/137659440-9651710a-612b-4fd4-8711-a0858d219c53.jpg)
+
 
 
